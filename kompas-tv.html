@@ -5,14 +5,11 @@
 
 <body>
   <div id="container"></div>
-<script>jwplayer.key="Hltj6gaaQ/XM5Wh6r+NNP0h/enqyOSf1AxY5Cg==";</script>
-<div id="video">
-<div class="screen fluid-width-video-wrapper">
-<div class="jwplayer" id="jwplayer-0">
-</div>
-<script type="text/javascript">if(typeof(jQuery)=="function"){(function($){$.fn.fitVids=function(){}})(jQuery)};jwplayer('jwplayer-0').setup({"aspectratio":"16:9","width":"100%","primary":"flash","image":"http://1.bp.blogspot.com/-nSTPmA_XXfQ/WAqu0Raj7FI/AAAAAAAAAPU/fJXWTJ5d2as82lAiiub-F9yaT1Xr5M75QCK4B/s1600/logo-cineplex.png","file":"rtmp://202.137.11.52:1935/jakarta/offair.sdp"});
-</script>   </div>
-<!-- end .screen -->
-  </div>
+         
+  <script>
+    jwplayer("container").setup({
+      file: "rtmp://202.137.11.52:1935/jakarta/offair.sdp"
+    });
+  </script>
 </body>
 </html>
